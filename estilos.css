@@ -2,15 +2,15 @@
 /*css document */
 ;
 
-h2 {
-    color: rgb(60, 76, 216);
+h1 {
+    color: rgb(31, 28, 201);
     font-size: 35px;
 }
 
 .botonera {
     width: 1200px;
     height: 90px;
-    background-color: lightgreen;
+    background-color: lightskyblue;
 }
 
 #cabecera {
@@ -21,8 +21,4 @@ h2 {
 
 header p {
     font-size: 25px;
-}
-
-.texto-ppal {
-    color: blueviolet;
 }
