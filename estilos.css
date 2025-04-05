@@ -1,22 +1,28 @@
 @charset "utf-8"
 /*css document */
-;h2 {
+;
+
+h2 {
     color: rgb(60, 76, 216);
     font-size: 35px;
 }
+
 .botonera {
     width: 1200px;
     height: 90px;
     background-color: lightgreen;
 }
+
 #cabecera {
     background-color: aquamarine;
     width: 1200px;
     height: 250px;
 }
+
 header p {
     font-size: 25px;
 }
+
 .texto-ppal {
     color: blueviolet;
 }

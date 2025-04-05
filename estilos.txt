@@ -1,4 +1,0 @@
-@charset "utf-8"
-/*css document */
-CSS inline
-CSS etiqueta <style>
