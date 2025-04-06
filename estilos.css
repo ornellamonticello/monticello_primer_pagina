@@ -4,29 +4,51 @@
 
 h1 {
     color: rgb(31, 28, 201);
-    font-size: 35px;
-}
-h2 {
-    color: rgba(83, 15, 194, 0.671);
-    font-size: 25px;
-}
-h3 {
-    color: rgb(59, 165, 207);
-    font-size: 18px;
+    font-size: 45px;
 }
 
-.botonera {
-    width: 1200px;
-    height: 90px;
-    background-color: lightskyblue;
+h2 {
+    color: rgba(83, 15, 194, 0.671);
+    font-size: 30px;
+}
+
+h3 {
+    color: rgb(59, 165, 207);
+    font-size: 20px;
 }
 
 #cabecera {
-    background-color: aquamarine;
-    width: 1200px;
+    background-color: rgb(150, 127, 255);
+    width: 2000px;
     height: 250px;
+    padding: 25px;
 }
 
-header p {
-    font-size: 25px;
+.botonera a {
+    font-size: 15px;
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #b791e9;
+    color: white;
+    border-radius: 5px;
+}
+
+.botonera {
+    background-color: rgb(215, 195, 235);
+    width: 2000px;
+    height: 30px;
+    padding: 15px 10px 30px 25px;
+}
+
+.contacto {
+    background-color: rgb(231, 229, 229);
+    width: 2000px;
+    height: 160px;
+    padding: 15px 20px 30px 25px;
+
+}
+
+ol {
+    list-style-type: disc
 }
