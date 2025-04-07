@@ -19,7 +19,7 @@ h3 {
 
 #cabecera {
     background-color: rgb(150, 127, 255);
-    width: 2000px; /* Cuidado con los width tan grandes! Te generan un scroll horizontal en la página, que no tendría que pasar. */
+    width: 1200px;
     height: 250px;
     padding: 25px;
 }
@@ -36,14 +36,14 @@ h3 {
 
 .botonera {
     background-color: rgb(215, 195, 235);
-    width: 2000px;
+    width: 1200px;
     height: 30px;
     padding: 15px 10px 30px 25px;
 }
 
 .contacto {
     background-color: rgb(231, 229, 229);
-    width: 2000px;
+    width: 1200px;
     height: 160px;
     padding: 15px 20px 30px 25px;
 
