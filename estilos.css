@@ -19,7 +19,7 @@ h3 {
 
 #cabecera {
     background-color: rgb(150, 127, 255);
-    width: 2000px;
+    width: 2000px; /* Cuidado con los width tan grandes! Te generan un scroll horizontal en la página, que no tendría que pasar. */
     height: 250px;
     padding: 25px;
 }
