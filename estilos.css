@@ -33,6 +33,9 @@ h3 {
     color: white;
     border-radius: 5px;
 }
+.botonera a :hover{
+    color: blue;
+}
 
 .botonera {
     background-color: rgb(215, 195, 235);
