@@ -1,27 +1,33 @@
 @charset "utf-8"
 /*css document */
 ;
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400;1,700;1,800&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+  }
 h1 {
-    color: rgb(31, 28, 201);
+    color: black;
     font-size: 45px;
 }
 
 h2 {
     color: rgba(83, 15, 194, 0.671);
-    font-size: 30px;
+    font-size: 25px;
 }
 
 h3 {
     color: rgb(59, 165, 207);
-    font-size: 20px;
+    font-size: 15px;
 }
 
 #cabecera {
-    background-color: rgb(150, 127, 255);
     width: 100%;
     height: 250px;
     padding: 25px;
+    background-image: url("img/fondo.png");
+    background-color: rgb(150, 127, 255);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
 }
 
 .botonera a {
@@ -31,10 +37,10 @@ h3 {
     margin: 5px;
     padding: 10px 20px;
     border: 2px solid purple;
-    /*background-color: #b791e9;*/
     color: purple;
     border-radius: 5px;
 }
+
 .botonera a:hover {
     color: white;
     background-color: purple;
@@ -43,12 +49,14 @@ h3 {
 .botonera {
     background-color: rgb(215, 195, 235);
     width: 100%;
-    height: 30px;
-    padding: 15px 10px 30px 25px;
+    height: 50px;
+    padding: 5px 10px 30px 25px;
 }
+
 nav ul {
     list-style: none;
 }
+
 nav ul li {
     display: inline;
 }
