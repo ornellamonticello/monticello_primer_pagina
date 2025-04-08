@@ -19,39 +19,48 @@ h3 {
 
 #cabecera {
     background-color: rgb(150, 127, 255);
-    width: 1200px;
+    width: 100%;
     height: 250px;
     padding: 25px;
 }
 
 .botonera a {
+    text-decoration: none;
     font-size: 15px;
     display: inline-block;
     margin: 5px;
     padding: 10px 20px;
-    background-color: #b791e9;
-    color: white;
+    border: 2px solid purple;
+    /*background-color: #b791e9;*/
+    color: purple;
     border-radius: 5px;
 }
-.botonera a :hover{
-    color: blue;
+.botonera a:hover {
+    color: white;
+    background-color: purple;
 }
 
 .botonera {
     background-color: rgb(215, 195, 235);
-    width: 1200px;
+    width: 100%;
     height: 30px;
     padding: 15px 10px 30px 25px;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline;
 }
 
 .contacto {
     background-color: rgb(231, 229, 229);
-    width: 1200px;
+    width: 100%;
     height: 160px;
     padding: 15px 20px 30px 25px;
 
 }
 
-ol {
+section ol li {
     list-style-type: disc
 }
