@@ -2,9 +2,6 @@
 /*css document */
 ;
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400;1,700;1,800&display=swap');
-body {
-    font-family: 'Poppins', sans-serif;
-  }
 h1 {
     color: black;
     font-size: 45px;
@@ -14,20 +11,62 @@ h2 {
     color: rgba(83, 15, 194, 0.671);
     font-size: 25px;
 }
-
 h3 {
-    color: rgb(59, 165, 207);
+    color: rgb(94, 134, 252);
+    font-size: 25px;
+}
+
+h4 {
+    color: black;
     font-size: 15px;
 }
 
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+
+  main {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+gap: 30px;
+width: 1265px;
+margin: 30px 0px 30px 0px;
+}
+
+.columna-izquierda {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 60%;
+}
+
+.columna-derecha {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+section {
+    background-color: rgb(241, 240, 240);
+    padding: 20px;
+  }
+
 #cabecera {
-    width: 100%;
+    width: 1200px;
     height: 250px;
     padding: 25px;
-    background-image: url("img/fondo.png");
+    background-image: url("img/fondo.jpg");
     background-color: rgb(150, 127, 255);
     background-repeat: no-repeat;
     background-size: 100% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .botonera a {
@@ -36,21 +75,24 @@ h3 {
     display: inline-block;
     margin: 5px;
     padding: 10px 20px;
-    border: 2px solid purple;
-    color: purple;
+    border: 3px solid rgb(160, 128, 236);
+    color: rgb(160, 128, 236);
     border-radius: 5px;
 }
 
 .botonera a:hover {
     color: white;
-    background-color: purple;
+    background-color: rgb(160, 128, 236);
 }
 
 .botonera {
-    background-color: rgb(215, 195, 235);
-    width: 100%;
-    height: 50px;
-    padding: 5px 10px 30px 25px;
+    background-color: rgb(212, 221, 248);
+    width: 1230px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
 }
 
 nav ul {
@@ -62,13 +104,19 @@ nav ul li {
 }
 
 .contacto {
-    background-color: rgb(231, 229, 229);
-    width: 100%;
-    height: 160px;
-    padding: 15px 20px 30px 25px;
-
+    background-color: rgb(244, 213, 248);
+    padding: 20px;
 }
 
 section ol li {
     list-style-type: disc
+}
+footer {
+    background-color: rgb(160, 128, 236);
+    width: 1205PX;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
 }
