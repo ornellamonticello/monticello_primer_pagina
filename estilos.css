@@ -26,37 +26,10 @@ body {
     margin: 0;
 }
 
-/*main {
-    display: flex;
-    flex-direction: wrap;
-    justify-content: space-around;
-    gap: 30px;
-    width: 1265px;
-    margin: 30px 0px 30px 0px;
-}*/
-
-.columna-izquierda {
-    /*display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 60%;*/
+main {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    gap: 30px;
-    width: 1265px;
-    margin: 30px 0px 30px 0px;
-}
-
-.columna-derecha {
-    display: flex;
-    flex-direction: column;
-    width: 35%;
-}
-
-section {
-    background-color: rgb(241, 240, 240);
-    padding: 20px;
+    align-items: center;
 }
 
 #cabecera {
@@ -71,17 +44,14 @@ section {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box
 }
-
-/*div {
-    margin-right: 20px;
-}*/
 
 .botonera a {
     text-decoration: none;
     font-size: 15px;
     display: inline-block;
-    margin: 5px;
+    margin: 20px;
     padding: 10px 20px;
     border: 3px solid rgb(160, 128, 236);
     color: rgb(160, 128, 236);
@@ -95,12 +65,13 @@ section {
 
 .botonera {
     background-color: rgb(212, 221, 248);
-    width: 1230px;
+    width: 1200px;
     padding: 10px;
     display: flex;
     flex-direction: column;
     justify-items: center;
     align-items: center;
+    box-sizing: border-box
 }
 
 nav ul {
@@ -121,11 +92,61 @@ section ol li {
     list-style-type: disc
 }
 
+.contenedor-de-columnas {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 1200px;
+    box-sizing: border-box
+}
+
+.columna-izquierda {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 60%;
+    margin: 30px 0px 30px 0px;
+}
+
+.columna-derecha {
+    display: flex;
+    width: 40%;
+    gap: 30px;
+    margin: 30px 0px 30px 0px;
+}
+
+section {
+    background-color: rgb(241, 240, 240);
+    padding: 20px;
+}
+
 .trabajos-realizados {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
     margin: 20px;
-    width: 1220px;
+    width: 1200px;
+}
+
+.tps-colum-izq {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.tps-colum-drc {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.contenedor-trabajos-realizados {
+    width: 1200px;
+    box-sizing: border-box
+    
 }
 
 footer {
@@ -136,4 +157,5 @@ footer {
     justify-content: center;
     color: white;
     font-size: 20px;
+    box-sizing: border-box
 }
