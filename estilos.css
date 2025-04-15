@@ -4,8 +4,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400;1,700;1,800&display=swap');
 
 h1 {
-    color: rgb(92, 0, 128);
-    font-size: 45px;
+    color: #1F2937;
+    font-size: 100px;
+    font-family: "Dancing Script", cursive;
+    margin-bottom: 0px;
 }
 
 h2 {
@@ -17,6 +19,12 @@ h3 {
     color: black;
     font-size: 15px;
 }
+h4 {
+    color: rgb(85, 92, 199);
+    font-size: 20px;
+    margin-top: 0px;
+    font-style: inherit;
+}
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -24,6 +32,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 0;
+    background-image: url("img/fondo-02.jpg");
 }
 
 main {
@@ -34,17 +43,11 @@ main {
 
 #cabecera {
     width: 1200px;
-    height: 250px;
-    padding: 25px;
-    background-image: url("img/fondo.jpg");
-    background-color: rgb(150, 127, 255);
-    background-repeat: no-repeat;
-    background-size: 100% auto;
+    height: 350px;
+    background-color: #a3d1fc;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
-    box-sizing: border-box
 }
 
 .botonera a {
@@ -53,25 +56,19 @@ main {
     display: inline-block;
     margin: 20px;
     padding: 10px 20px;
-    border: 3px solid rgb(160, 128, 236);
-    color: rgb(160, 128, 236);
+    border: 3px solid rgb(85, 92, 199);
+    color: rgb(85, 92, 199);
     border-radius: 5px;
 }
 
 .botonera a:hover {
     color: white;
-    background-color: rgb(160, 128, 236);
+    background-color: rgb(85, 92, 199);
 }
 
 .botonera {
     background-color: rgb(212, 221, 248);
     width: 1200px;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-    box-sizing: border-box
 }
 
 nav ul {
@@ -94,10 +91,8 @@ section ol li {
 
 .contenedor-de-columnas {
     display: flex;
-    justify-content: center;
     gap: 30px;
     width: 1200px;
-    box-sizing: border-box
 }
 
 .columna-izquierda {
@@ -113,11 +108,7 @@ section ol li {
     width: 40%;
     gap: 30px;
     margin: 30px 0px 30px 0px;
-}
-
-section {
-    background-color: rgb(241, 240, 240);
-    padding: 20px;
+    flex-direction: column;
 }
 
 .trabajos-realizados {
@@ -146,6 +137,15 @@ section {
 .contenedor-trabajos-realizados {
     width: 1200px;
     box-sizing: border-box
+    background-color: rgb(212, 221, 248);
+    
+}
+
+
+section {
+    background-color: #E5E7EB;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 footer {
@@ -153,7 +153,8 @@ footer {
     width: 1205PX;
     padding: 20px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     color: white;
     font-size: 20px;
     box-sizing: border-box
