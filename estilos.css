@@ -19,6 +19,7 @@ h3 {
     color: black;
     font-size: 15px;
 }
+
 h4 {
     color: rgb(85, 92, 199);
     font-size: 20px;
@@ -113,11 +114,6 @@ section ol li {
 
 .trabajos-realizados {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    margin: 20px;
-    width: 1200px;
 }
 
 .tps-colum-izq {
@@ -125,6 +121,7 @@ section ol li {
     align-items: center;
     flex-direction: column;
     width: 50%;
+    gap: 40px;
 }
 
 .tps-colum-drc {
@@ -132,13 +129,12 @@ section ol li {
     align-items: center;
     flex-direction: column;
     width: 50%;
+    gap: 40px;
 }
 
 .contenedor-trabajos-realizados {
     width: 1200px;
-    box-sizing: border-box
-    background-color: rgb(212, 221, 248);
-    
+    box-sizing: border-box background-color: rgb(212, 221, 248);
 }
 
 
@@ -146,6 +142,7 @@ section {
     background-color: #E5E7EB;
     padding: 20px;
     border-radius: 10px;
+    box-sizing: border-box
 }
 
 footer {
