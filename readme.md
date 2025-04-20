@@ -1,4 +1,4 @@
-# Ornella Daniela Monticello/ Entrega del trabajo práctico n1
+# Ornella Daniela Monticello/ Entrega del tp n1
 
 ## Datos sobre mi tp 
 * Editor de código: Visual estudio
