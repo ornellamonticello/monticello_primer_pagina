@@ -21,10 +21,9 @@ h3 {
 }
 
 h4 {
-    color: rgb(85, 92, 199);
+    color: rgb(95 55 171);
     font-size: 20px;
     margin-top: 0px;
-    font-style: inherit;
 }
 
 body {
@@ -33,19 +32,14 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 0;
-    background-image: url("img/fondo-02.jpg");
+    background-image: url("img/fondo-03.jpg");
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 #cabecera {
     width: 1200px;
     height: 350px;
-    background-color: #a3d1fc;
+    background-color: #a3a9fc;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,16 +66,12 @@ main {
     width: 1200px;
 }
 
-nav ul {
-    list-style: none;
-}
-
 nav ul li {
     display: inline;
 
 }
 
-.contacto {
+.datos-personales {
     background-color: rgb(244, 213, 248);
     padding: 20px;
 }
@@ -133,26 +123,22 @@ section ol li {
 }
 
 .contenedor-trabajos-realizados {
-    width: 1200px;
-    box-sizing: border-box background-color: rgb(212, 221, 248);
+    background-color: rgb(212, 221, 248);
 }
 
 
 section {
-    background-color: #E5E7EB;
+    background-color: rgb(240, 233, 241);
     padding: 20px;
     border-radius: 10px;
-    box-sizing: border-box
 }
 
 footer {
-    background-color: rgb(160, 128, 236);
-    width: 1205PX;
-    padding: 20px;
+    background-color: #a3a9fc;
+    width: 1200PX;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: white;
     font-size: 20px;
-    box-sizing: border-box
 }
